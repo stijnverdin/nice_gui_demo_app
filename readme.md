@@ -26,13 +26,23 @@ When you run the web application you should see web page like this:
 Run tests to figure out which tests are failing.
 
 ## 6. Create fix-tests branch
-From `main` create branch to fix broken tests. Fix the failing tests.
+From `main` create branch to fix broken tests.
+Fix the failing tests.
+Push the branch and make a pull request.
+Merge pull request.
 
 ## 7. Create new test from requirements
+From `main` create branch to implement test from the requirements.
 Find the funtion stub in the code and implement the test.
+Push the branch and make a pull request.
+Merge pull request. 
 
 ## 8. Create new test of your own
 Think of and create a simple new test.
+From `main` create branch to implement your own test.
+Find the funtion stub in the code and implement the test.
+Push the branch and make a pull request.
+Merge pull request.
 
 ## 9. Run the pipeline
 Go to Github and run the pipeline on your branches.

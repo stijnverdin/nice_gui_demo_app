@@ -1,0 +1,38 @@
+# Prerequisites
+Python IDE
+
+Python 3 version installed
+
+Github account
+
+# Task
+
+## 1. Clone the repository
+
+Use `git` to clone repository.
+
+## 2. Install dependancies
+
+To install dependencies using `requirements.txtx`
+
+⚔️ Side quest: Use virtual environment.
+
+## 4. Run web application
+When you run the web application you should see web page like this:
+
+![web app](readme_assets/image.png)
+
+## 5. Run tests
+Run tests to figure out which tests are failing.
+
+## 6. Create fix-tests branch
+From `main` create branch to fix broken tests. Fix the failing tests.
+
+## 7. Create new test from requirements
+Find the funtion stub in the code and implement the test.
+
+## 8. Create new test of your own
+Think of and create a simple new test.
+
+## 9. Run the pipeline
+Go to Github and run the pipeline on your branches.

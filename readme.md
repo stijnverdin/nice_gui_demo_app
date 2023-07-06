@@ -5,7 +5,7 @@ Python 3 version installed
 
 Github account
 
-# Task
+# Tasks
 
 ## 1. Fork the repository
 

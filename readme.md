@@ -7,9 +7,9 @@ Github account
 
 # Task
 
-## 1. Clone the repository
+## 1. Fork the repository
 
-Use `git` to clone repository.
+Use `git` to fork and clone repository.
 
 ## 2. Install dependancies
 

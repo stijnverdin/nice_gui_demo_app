@@ -50,3 +50,17 @@ def test_consumers_table(browser):
     amount_of_rows = len(selected_consumers_table.find_elements(By.XPATH, "//*[@row-id]"))
     time.sleep(1)
     assert amount_of_rows == 0
+
+@pytest.mark.skip(reason="Awaiting implementation")
+def test_requirement():
+    """
+    Test to...
+    TODO: Come up with a simple requirement
+    
+    """
+    return
+
+@pytest.mark.skip(reason="Awaiting implementation")
+def test_your_own_idea():
+    """ Implement your own test """
+    return

@@ -1,26 +1,25 @@
 import threading
 from nicegui import ui, app
 
+class Device(dict):
+    def __init__(self, name, peak_power, daily_consumption):
+        self['device_name'] = name
+        self['peak_power'] = peak_power
+        self['daily_consumption'] = daily_consumption
+
+potential_consumers = [
+    Device("Fridge", 100, 50),
+    Device("Microwave", 2500, 50),
+    Device("Kettle", 2000, 50),
+    Device("Oven", 3000, 150),
+    Device("Laptop", 150, 30),
+    Device("TV", 300, 500),
+    Device("PC", 600, 700),
+]  
 class NiceGuiUI:
 
     def start_UI(self):
         model = {'maximum_peak_power': 0}
-
-        class Device(dict):
-            def __init__(self, name, peak_power, daily_consumption):
-                self['device_name'] = name
-                self['peak_power'] = peak_power
-                self['daily_consumption'] = daily_consumption
-
-        potential_consumers = [
-            Device("Fridge", 100, 50),
-            Device("Microwave", 2500, 50),
-            Device("Kettle", 2000, 50),
-            Device("Oven", 3000, 150),
-            Device("Laptop", 150, 30),
-            Device("TV", 300, 500),
-            Device("PC", 600, 700),
-        ]   
 
         potential_consumers_dict = dict()
         for index in range(len(potential_consumers)):

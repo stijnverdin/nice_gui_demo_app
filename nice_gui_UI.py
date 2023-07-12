@@ -76,7 +76,7 @@ class NiceGuiUI:
         peak_power_label = ui.label(f"Peak power: {potential_consumers[add_device_dropdown_selection_value['value']]['peak_power']}")\
             .bind_text_from(add_device_dropdown_selection_value, 'value', backward=lambda t: f"Peak power: {potential_consumers[int(t)]['peak_power']} W").props('id=peak_power_label')
         daily_consumption_label = ui.label(f"Daily consumption: {potential_consumers[add_device_dropdown_selection_value['value']]['daily_consumption']}")\
-            .bind_text_from(add_device_dropdown_selection_value, 'value', backward=lambda t: f"Daily consumption: {potential_consumers[int(t)]['daily_consumption']} wH").props('id=daily_consumption_label')
+            .bind_text_from(add_device_dropdown_selection_value, 'value', backward=lambda t: f"Daily consumption: {potential_consumers[int(t)]['daily_consumption']} Wh").props('id=daily_consumption_label')
         add_selected_device_button = ui.button('Add device', on_click=add_selected_device_to_consumers).props('id=add_selected_device_button')
 
         ui.label('Summary').style('color: #6E93D6; font-size: 150%; font-weight: 300')

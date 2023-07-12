@@ -57,6 +57,7 @@ def test_consumers_table(browser):
     add_device_button.click()
     time.sleep(1)
     add_device_button.click()
+    time.sleep(1)
     amount_of_rows = len(selected_consumers_table.find_elements(By.XPATH, "//*[@row-id]"))
     assert amount_of_rows == 1
     remove_last_button = browser.find_element(By.ID,'remove_last_device_button')

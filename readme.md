@@ -17,10 +17,14 @@ To install dependencies using `requirements.txtx`
 
 ⚔️ Side quest: Use virtual environment.
 
-## 4. Run web application
+## 3. Run web application
 When you run the web application you should see web page like this:
 
 ![web app](readme_assets/image.png)
+
+## 4. Familiarise yourself with the code
+
+Briefly describe the project structure. What are the responsibilities of main elements?
 
 ## 5. Run tests
 Run tests to figure out which tests are failing.

@@ -13,6 +13,7 @@ jobs:
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: pip install pytest
+      - run: pip install selenium
       - name: Pytest run
         run: pytest 
       - name: Summary
@@ -23,3 +24,5 @@ jobs:
         with:
           name: pytest-report
           path: pytest_html_report.html
+
+          
